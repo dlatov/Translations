@@ -99,3 +99,19 @@ footer {
 .button-group a:hover {
   background: #145083;
 }
+/* Back link at bottom of ceremony pages */
+.back-link {
+  display: block;
+  margin-top: 2em;
+  text-align: center;
+  font-size: 0.95em;
+}
+
+.back-link a {
+  color: #1e6ebc;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
