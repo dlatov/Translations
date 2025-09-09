@@ -1,0 +1,101 @@
+/* Base page styles */
+body {
+  font-family: "Georgia", serif;
+  background: #fffaf5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #222;
+  text-align: center; /* centers everything */
+}
+
+/* Card container */
+main {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+header h1 {
+  font-size: 2.2em;
+  margin: 0;
+  color: #1e6ebc; /* blue — change to green if you like */
+}
+header p {
+  margin: 0.3em 0;
+  color: #555;
+}
+
+/* Section headers */
+h2 {
+  margin-top: 1.2em;
+  color: #2e8b57; /* green for section headers */
+  font-size: 1.4em;
+  font-family: "Cormorant Garamond", serif; /* distinct font */
+}
+
+/* Poem / preformatted text */
+pre {
+  white-space: pre-wrap; /* wrap lines if they’re long */
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+/* Lists */
+ol, ul {
+  display: inline-block; /* keeps them centered */
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 1.2em;
+}
+
+/* Footer */
+footer {
+  margin-top: 2em;
+  text-align: center;
+  color: #666;
+  font-size: 0.9em;
+}
+
+/* Landing page extras */
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fffaf5;
+}
+
+.landing h1 {
+  margin-bottom: 1.5em;
+  font-size: 2em;
+  color: #1e6ebc;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.button-group a {
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 8px;
+  background: #1e6ebc;
+  color: white;
+  font-size: 1.1em;
+  transition: background 0.2s;
+}
+
+.button-group a:hover {
+  background: #145083;
+}
